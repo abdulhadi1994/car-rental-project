@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import Models from "./pages/models";
+import Models from "./pages/Models";
 
 
 function App() {

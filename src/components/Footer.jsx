@@ -12,9 +12,21 @@ const Footer = () => {
               have the perfect car to meet your needs.
             </p>
             <div className="footer__intro__links">
-              <a href="#" className="footer__intro__link disabled">(123) -456-789</a>
-              <a href="#" className="footer__intro__link disabled"> carrental@gmail.com</a>
-              <a href="https://xspeedstudio.com" target="blank" className="footer__intro__link"> Design by XpeedStudio</a>
+              <a href="#" className="footer__intro__link disabled">
+                (123) -456-789
+              </a>
+              <a href="#" className="footer__intro__link disabled">
+                {" "}
+                carrental@gmail.com
+              </a>
+              <a
+                href="https://xspeedstudio.com"
+                target="blank"
+                className="footer__intro__link"
+              >
+                {" "}
+                Design by XpeedStudio
+              </a>
             </div>
           </div>
           <div className="footer__company footer__content">
@@ -55,7 +67,6 @@ const Footer = () => {
             <form action="" className="footer__email__form">
               <input
                 type="text"
-                place
                 placeholder="Enter Email Address"
                 className="footer__email__form__input"
               />
